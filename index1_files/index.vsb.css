@@ -1,0 +1,182 @@
+/* 以下样式不用修改 开始*/
+    /* 默认ul 无需修改 */
+    table{
+    border-spacing:0px !important;}
+    .nav_menustyle_1_1 ul
+    {
+        list-style-type:none;
+        padding:0px; 
+        margin:0px;}
+    /* 默认li 无需修改 */
+    .nav_menustyle_1_1 li
+    {
+        float:left;
+        text-align:center;
+        position:relative;}
+    /* 2级以上 li 无需修改 */
+    .nav_menustyle_1_1 ul li ul li
+    {
+        z-index:100;}
+    /* 3级以上默认ul 无需修改 */
+    .nav_menustyle_1_1 ul li ul li ul
+    {
+        left:100%;
+        top:0px;}
+    /* IE6下的table样式 无需修改 */
+    .nav_menustyle_1_1 table 
+    {
+        position:absolute; 
+        left:0px;
+        border-collapse:collapse; 
+        border-spacing:0; 
+        z-index:100;}   
+    .nav_menustyle_1_1 table table
+    {
+        top:0px;}
+    .nav_menustyle_1_1 td 
+    {
+        padding: 0;}   
+    /* 共6级导航子菜单打开关闭控制 无需修改 */
+    .nav_menustyle_1_1 li ul,
+    .nav_menustyle_1_1 li:hover ul li ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li:hover ul li ul
+    {
+        display:none;}
+    .nav_menustyle_1_1 li a:hover ul li ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li a:hover ul li ul
+    {
+        visibility:hidden;}
+    .nav_menustyle_1_1 li a:hover ul,
+    .nav_menustyle_1_1 li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li:hover ul,
+    .nav_menustyle_1_1 li:hover ul li:hover ul li:hover ul li:hover ul li:hover ul    
+    {
+        display:block;
+        position:absolute;}
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li a:hover ul,
+    .nav_menustyle_1_1 li a:hover ul li a:hover ul li a:hover ul li a:hover ul li a:hover ul
+    {
+        visibility:visible;}
+    /* 默认a属性 无需修改 */
+    .nav_menustyle_1_1 a
+    {
+        display:block;
+        text-decoration:none;
+        white-space:nowrap;}
+/* 以上样式不用修改 结束*/
+/* 默认链接样式 可以修改默认的 字体、颜色、宽度、高度、背景色、边框等*/
+.nav_menustyle_1_1 a
+{
+    width:114px;         /*菜单宽度*/
+    height:43px;        /*菜单高度*/
+    line-height:42px;   /*字体高度, 可设为菜单高度*/
+    font-size:16px;     /*字体大小*/
+    color:#000;}
+/* 默认hover链接样式 可以设置默认的鼠标移上样式 */
+.nav_menustyle_1_1 a:hover
+{
+    color:#fff; /*鼠标移上颜色*/
+    background:#94221b;}
+/* IE6兼容性代码，在IE6下起效， 必须根据菜单高宽进行设定 */
+.nav_menustyle_1_1 table 
+{
+    top:26px;}   
+.nav_menustyle_1_1 table table
+{
+    left:91px;}   
+/* 2级以上链接样式 可以修改2级以上菜单的 字体、颜色、宽度、高度、背景色、边框等*/
+.nav_menustyle_1_1 ul li ul li a
+{
+background:#d3d1d1;}
+/* 2级以上hover链接样式 可以修改2级以上菜单的鼠标移上样式*/
+.nav_menustyle_1_1 ul li ul li a:hover
+{}
+/* 3级以上链接样式 可以修改3级以上菜单的 字体、颜色、宽度、高度、背景色、边框等*/
+.nav_menustyle_1_1 ul li ul li ul li a
+{}
+/* 3级以上hover链接样式 可以修改3级以上菜单的鼠标移上样式*/
+.nav_menustyle_1_1 ul li ul li ul li a:hover
+{}
+
+
+.morestyle70224{ font-size: 9pt ;}
+.clickstyle70224{ font-size: 9pt; color: #222222; line-height: 150% ;}
+.leaderfont70224{ list-style-position: inside; line-height: 150% ;}
+.titlestyle70224{ line-height: 180%; height: 33px; font-size: 14px; text-decoration: none ;}
+.columnstyle70224{ font-size: 9pt; color: #222222; text-decoration: none ;}
+.timestyle70224{ line-height: 150%; color: #222222; font-size: 13px ;}
+.winstyle70224{ padding-left: 10px; padding-right: 10px; padding-top: 10px ;}
+A.c70224 {
+line-height: 180%; height: 33px; font-size: 14px; text-decoration: none 
+;}
+A.c70224:link {
+color:#222222;}
+A.c70224:visited {
+color:#222222;}
+A.c70224:active {
+color: #222222;}
+A.c70224:hover {
+color: #cc0000;}
+.morestyle70225{ font-size: 9pt ;}
+.clickstyle70225{ font-size: 9pt; color: #222222; line-height: 150% ;}
+.leaderfont70225{ list-style-position: inside; line-height: 150% ;}
+.titlestyle70225{ line-height: 180%; height: 33px; font-size: 14px; text-decoration: none ;}
+.columnstyle70225{ font-size: 9pt; color: #222222; text-decoration: none ;}
+.timestyle70225{ line-height: 150%; color: #222222; font-size: 13px ;}
+.winstyle70225{ padding-left: 10px; padding-right: 10px; padding-top: 10px ;}
+A.c70225 {
+line-height: 180%; height: 33px; font-size: 14px; text-decoration: none 
+;}
+A.c70225:link {
+color:#222222;}
+A.c70225:visited {
+color:#222222;}
+A.c70225:active {
+color: #222222;}
+A.c70225:hover {
+color: #cc0000;}
+.morestyle70227{ font-size: 9pt ;}
+.clickstyle70227{ font-size: 9pt; color: #222222; line-height: 150% ;}
+.leaderfont70227{ list-style-position: inside; line-height: 150%; font-size: 9pt ;}
+.titlestyle70227{ line-height: 180%; font-size: 14px; text-decoration: none ;}
+.columnstyle70227{ font-size: 9pt; color: #222222; text-decoration: none ;}
+.timestyle70227{ line-height: 150%; color: #222222; font-size: 14px ;}
+.winstyle70227{ padding-left: 10px; padding-right: 10px; padding-top: 10px ;}
+A.c70227 {
+line-height: 180%; font-size: 14px; text-decoration: none 
+;}
+A.c70227:link {
+color:#222222;}
+A.c70227:visited {
+color:#222222;}
+A.c70227:active {
+color: #222222;}
+A.c70227:hover {
+color: #cc0000;}
+.morestyle70226{ font-size: 9pt ;}
+.clickstyle70226{ font-size: 9pt; color: #222222; line-height: 150% ;}
+.leaderfont70226{ list-style-position: inside; line-height: 150%; font-size: 9pt ;}
+.titlestyle70226{ line-height: 180%; font-size: 14px; text-decoration: none ;}
+.timestyle70226{ line-height: 150%; color: #222222; font-size: 14px ;}
+.winstyle70226{ padding-left: 10px; padding-right: 10px; padding-top: 10px ;}
+A.c70226 {
+line-height: 180%; font-size: 14px; text-decoration: none 
+;}
+A.c70226:link {
+color:#222222;}
+A.c70226:visited {
+color:#222222;}
+A.c70226:active {
+color: #222222;}
+A.c70226:hover {
+color: #cc0000;}
+.titlestyle70389{ line-height: 220%; color: #222222; font-size: 9pt; font-weight: bold; text-decoration: none ;}
+.summarystyle70389{ line-height: 150%; color: #222222; font-size: 9pt ;}

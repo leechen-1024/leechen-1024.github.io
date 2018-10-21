@@ -1,0 +1,420 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+#shiye{
+padding-top: 0px !important;
+}
+#shiye img{
+width: 50px !important;
+}
+
+
+body{
+background-image: url(../images/backgroundcolor.png) ;
+
+
+background-repeat: repeat-x;
+
+
+}
+
+
+#kuaisutongdao ul {
+width:390px;
+}
+#kuaisutongdao ul li{
+float:left;
+padding:7px 23px;
+}
+
+
+
+
+
+
+
+#tophead{
+
+
+
+width: 100%;
+height: 35px;
+background-color: #8d0505;
+}
+#tophead1 ul li{
+float: left;
+list-style: none;
+padding: 0px 5px;
+
+}
+#tophead1 ul li a{
+color: white;
+font-size: 15px;
+
+}
+#logo{
+width: 100%;
+height: 128px;
+background-color: #94221b;
+}
+#nav{
+width: 100%;
+height: 43px;
+background-color: #d3d1d1;
+}
+#banner{
+width: 100%;
+height: 448px;
+background-color: #d3d1d1;
+
+}
+#tophead1,#logo1,#nav1,#banner1{
+width: 1250px;
+height: 100%;
+margin: 0 auto;
+}
+#nav1 ul li{
+list-style: none;
+float: left;
+}
+#content{
+width: 1250px;
+margin: 0 auto;
+height: auto;
+overflow: hidden;
+padding-top: 15px;
+background-color: #fff;
+
+
+
+
+
+
+}
+.left,.center,.right{
+float: left;
+}
+.left,.center{
+width: 420px;
+height: 350px;
+
+}
+.right{
+width:300px;
+height: 300px; 
+padding-right: 20px;
+}
+.lefttop span {
+font-family: "微软雅黑";
+font-size: 17px;
+
+margin-left: 10px;
+}
+.lefttop a{
+color: #9a9595;
+font-size: 10px;
+padding-top: 7px;
+}
+.leftcon{
+margin-top: 10px;
+}
+.leftcon ul li{
+list-style: none;
+height: 28px;
+}
+.leftcon ul li a{
+float: right;
+font-size: 15px;
+}
+.leftcon ul li p{
+font-size: 14px;
+float: left;
+}
+
+.leftcon1 ul li{
+list-style: decimal;
+list-style-position: inherit;
+height: 28px;
+}
+.leftcon1 ul li a{
+float: right;
+font-size: 15px;
+}
+.leftcon1 ul li p{
+font-size: 14px;
+float: left;
+}
+#zhuanti{
+width: 900px;
+height: 130px;
+float: left;
+
+}
+#zhuantop span{
+font-family: "微软雅黑";
+font-size: 17px;
+font-weight: bolder;
+}
+#zhuancen ul li{
+list-style: none;
+float: left;
+padding: 14px 19px;
+}
+#kuaisu{
+width: 100%;
+height: 135px;
+float: left;
+}
+#kuaisutop span{
+font-family: "微软雅黑";
+font-size: 17px;
+font-weight: bolder;
+}
+#kuaisucen ul li{
+list-style: none;
+float: left;
+margin: 5px 5px;
+width: 116px;
+height: 25px;
+
+text-align: center;
+vertical-align: middle;
+border-radius: 5px;
+}
+#kuaisucen ul li a{
+color: white;
+font-size: 13px;
+}
+#kuaisucen ul li a:hover{
+color: black;
+cursor: pointer;
+}
+#foot{
+width: 100%;
+height: auto;
+background-color: #94221b;
+}
+#footcen{
+width: 1340px;
+height: 45px;
+margin: 0 auto;
+overflow: hidden;
+
+}
+#footcen ul{
+margin-left: 10px;
+}
+
+#footcen ul li {
+color:white;
+font-size: 15px;
+float: left;
+list-style: none;
+padding: 15px 0px 0px 17px;
+}#anshi{
+padding: 0px 10px 5px;
+border: solid #ab0505 2px;
+border-width: 0px 0px 2px;
+cursor: pointer;
+}
+#yuanxi{
+
+padding: 0px 10px 5px;
+border: solid #ab0505 2px;
+border-width: 0px 0px 0px;
+cursor: pointer;
+}
+#tongzhi{
+padding: 0px 10px 5px;
+border: solid #ab0505 2px;
+border-width: 0px 0px 2px;
+cursor: pointer;
+}
+#xueshu{
+
+padding: 0px 10px 5px;
+border: solid #ab0505 2px;
+border-width: 0px 0px 0px;
+cursor: pointer;
+}
+
+
+ul,li{
+list-style: none;
+}
+a{
+text-decoration: none;
+color: #333;
+}
+img{
+border: 0;
+}
+h1,h2,h3,h4,h5,h6{
+font-weight: normal;
+}
+em{
+font-style: normal;
+}
+
+.focus {
+margin: 0px auto; 
+width: 100%; 
+height: 448px; 
+overflow: hidden; 
+float: left; 
+position: relative; 
+}
+.banner img {
+width: 100%;
+}
+.focus .shadow .title {
+width: 100%; 
+height: 65px; 
+padding-top: 20px; 
+padding-left: 30px;
+}
+.focus .shadow .title a {
+color: rgb(255, 255, 255); 
+overflow: hidden; 
+font-size: 14px; 
+font-weight: bolder; 
+text-decoration: none;
+}
+.focus .btn {
+left: 510px; 
+bottom: 34px; 
+overflow: hidden; 
+position: absolute; 
+-ms-zoom: 1;
+}
+.focus .btn a {
+background: rgb(217, 217, 217); 
+font: 12px/15px "宋体"; 
+margin: 0px 5px; 
+outline: 0px; 
+border-radius: 7px; 
+width: 13px; 
+height: 13px; 
+text-align: center; 
+color: rgb(176, 176, 176); 
+text-decoration: none; 
+float: left; 
+display: inline; 
+position: relative; 
+font-size-adjust: none; 
+font-stretch: normal;
+}
+.focus .btn a:hover {
+background: rgb(252, 17, 74); 
+cursor: pointer;
+}
+.focus .btn a.current {
+background: rgb(252, 17, 74);
+cursor: pointer;
+}
+.focus .fPic {
+left: 0px; 
+top: 0px; 
+width: 100%; 
+position: absolute;
+}
+.focus .D1fBt {
+height: 16px; 
+overflow: hidden; 
+z-index: 10; 
+-ms-zoom: 1;
+}
+.focus .shadow {
+background:url(../images/banner-bg.png) repeat;
+left: 0px; 
+width: 100%; 
+height: 35px; 
+text-align: left; 
+bottom: 0px; 
+display: block; 
+position: absolute; 
+z-index: 10;
+}
+.focus .shadow a {
+left: 50%; 
+width:580px; 
+height: 45px; 
+color: rgb(255, 255, 255); 
+line-height: 40px; 
+overflow: hidden; 
+font-family: "微软雅黑"; 
+font-size: 16px; 
+text-decoration: none; 
+text-align: left;
+display: inline-block; 
+left:15px;
+position: absolute;
+}
+.focus .fcon {
+width: 100%; 
+height: 448px; 
+float: left; 
+background-position: 50% 0;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.focus .fcon img {
+display: block;
+}
+.focus .fbg {
+width: 150px; 
+height: 20px; 
+text-align: center; 
+right: 0px; 
+bottom: 5px; 
+position: absolute; 
+z-index: 200;
+}
+.focus .fbg div {
+margin: 4px auto 0px; 
+height: 14px; 
+overflow: hidden; 
+-ms-zoom: 1;
+}
+.focus .D1fBt a {
+background: url("../images/point.png") no-repeat; 
+margin: 0px 5px; 
+width: 14px; 
+height: 14px; 
+color: rgb(176, 176, 176); 
+float: left; 
+display: inline; position: relative; _background: none;
+}
+.focus .D1fBt .current {
+background: url("../images/point_1.png") no-repeat; _background: none;
+}
+.focus .D1fBt a:hover {
+background: url("../images/point_1.png") no-repeat; _background: none;
+}
+.focus .D1fBt img {
+display: none;
+}
+.focus .D1fBt i {
+font-style: normal; display: none;
+}
+.focus .prev {
+background: url("../images/focus_btn.png") no-repeat; width: 40px; height: 74px; position: absolute; _background: none;
+}
+.focus .next {
+background: url("../images/focus_btn.png") no-repeat; width: 40px; height: 74px; position: absolute; _background: none;
+}
+.focus .prev {
+background-position: 0px -74px; left: 50px; top: 50%; margin-top: -37px; cursor: pointer;
+}
+.focus .next {
+background-position: -40px -74px; top: 50%; right: 50px; margin-top: -37px; cursor: pointer;
+}
+.focus .prev:hover {
+background-position: 0px 0px;
+}
+.focus .next:hover {
+background-position: -40px 0px;
+}
